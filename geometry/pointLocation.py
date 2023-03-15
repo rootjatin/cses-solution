@@ -10,6 +10,7 @@ for i in range(a):
         aa[i][3]=aa[i][3]-aa[i][1]
         aa[i][4]=aa[i][4]-aa[i][0]
         aa[i][5]=aa[i][5]-aa[i][1]
+        
 for i in range(a):          
         p=aa[i][2]*aa[i][5]-(aa[i][3]*aa[i][4])
         if(p==0):
