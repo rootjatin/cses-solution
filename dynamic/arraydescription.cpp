@@ -49,7 +49,5 @@ int main()
         pie+=dp[a-1][i];
         pie%=mod;
     }
-    cout<<pie;
-    
     
 }
