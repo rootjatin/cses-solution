@@ -70,7 +70,7 @@ signed main(){
     //cin>>t;
     while(t--){
         solve();
-        //cout<<'\n';
+        cout<<'\n';
     }
     #ifdef LOCAL
     clock_t tStart = clock();
