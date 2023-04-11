@@ -27,11 +27,11 @@ int main()
     }
     for (int i=1;i<a;i++){
         if(aa[i] == 0) {
-						for (int j = 1; j <= b; j++) {
-								dp[i][j] += dp[i-1][j];
-								if(j - 1 > 0){ dp[i][j] += dp[i-1][j-1];}
-								if(j + 1 <= b) {dp[i][j] += dp[i-1][j+1];}
-								dp[i][j] %= mod;
+			for (int j = 1; j <= b; j++) {
+			dp[i][j] += dp[i-1][j];
+			if(j - 1 > 0){ dp[i][j] += dp[i-1][j-1];}
+			if(j + 1 <= b) {dp[i][j] += dp[i-1][j+1];}
+			dp[i][j] %= mod;
 						}
 				}
 				else {
