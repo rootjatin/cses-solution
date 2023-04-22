@@ -1,3 +1,4 @@
+// leetcode problems 
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
@@ -27,6 +28,7 @@ public:
         return false;
     }
 };
+                                   
                 while (s < e && s2[s] - 'a' != lastChar) {
                     m[s2[s++] - 'a']++;
                 }
@@ -38,4 +40,5 @@ public:
         }
         return false;
     }
+    
 };
