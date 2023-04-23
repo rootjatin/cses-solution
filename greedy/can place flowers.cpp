@@ -11,7 +11,6 @@ public:
             }
         }
         if (temp>=n){
-            cout<<temp; 
             return true;
         }
 
